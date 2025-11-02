@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\OneDrive\BOOK\OpenGL\실습\cmake_project_example\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\OneDrive\BOOK\OpenGL\실습\cmake_project_example\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D47A57C2-87C5-3D5C-893B-19E798ED449D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

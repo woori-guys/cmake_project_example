@@ -1,0 +1,10 @@
+^E:\ONEDRIVE\BOOK\OPENGL\실습\CMAKE_PROJECT_EXAMPLE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/OneDrive/BOOK/OpenGL/실습/cmake_project_example -BE:/OneDrive/BOOK/OpenGL/실습/cmake_project_example/build --check-stamp-file E:/OneDrive/BOOK/OpenGL/실습/cmake_project_example/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
